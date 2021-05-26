@@ -1,4 +1,4 @@
-# Algorithms-and-Data-Structures
+# Data-Structures-and-Algorithms
 Programs written for the course Data Structures and Algorithms (laboratory) at the Wroclaw University of Science and Technology (Politechnika Wroclawska)
 
 1. List 1 - basic iterators and writing to a file
