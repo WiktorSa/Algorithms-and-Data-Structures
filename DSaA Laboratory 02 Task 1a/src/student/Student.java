@@ -1,3 +1,4 @@
+package student;
 
 public class Student
 {
@@ -63,5 +64,4 @@ public class Student
 	{
 		return index.equals(student.getIndex());
 	}
-	
 }

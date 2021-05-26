@@ -1,3 +1,4 @@
+package student;
 
 public class Student
 {
@@ -56,6 +57,8 @@ public class Student
 	
 	public String toString()
 	{
+		// Dodaje puste spacje, zeby byla odleglosc pomiedzy imieniem a ocena
+		// Zmieniam tez przecinek na kropke w ocenie
 		return String.format("%10s %15s %15s %10s %.1f", index, lastName, firstName, "", grade).replace(",", ".");
 	}
 	
