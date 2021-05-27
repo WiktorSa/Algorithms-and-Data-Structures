@@ -32,7 +32,7 @@ public class OneWayList<E>
 	public void insert(int pos, E e)
 	{
 		if (pos < 0) {
-			System.out.println("Nieprawidlowy indeks");
+			System.out.println("Incorrect index");
 			return;
 		}
 		else {
@@ -215,7 +215,7 @@ public class OneWayList<E>
 		Element actualElement = head;
 		while (actualElement != null && actualElement.getNext() != null) 
 		{
-			if (actualElement.getNext().equals(e)) {
+			if (actualElement.getNext().getValue() == e.getValue()) {
 				// Skipping this element
 				E retiringValue = (E) actualElement.getNext().getValue();
 				actualElement.setNext(actualElement.getNext().getNext());
