@@ -12,5 +12,6 @@ Programs written for the course Data Structures and Algorithms (laboratory) at t
 9. List 11 - RB Tree (Red-Black Tree) and 2-3-4 Tree
 10. List 12 - Disjoint-set Data Structure and the analysis of trees from the list 10 and 11
 11. List 13 - Graphs, BFS (Breadth-First Search), DFS (Depth-First Search)
+12. List 14 - Graphs, Kruskal's algorithm, Prim's algorithm, Floyd-Warshall algorithm
 
 The detailed description of the tasks is in the folder Tasks (in Polish language)
